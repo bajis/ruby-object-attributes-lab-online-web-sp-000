@@ -4,9 +4,9 @@ class Dog
     @breed
   end
   def name=(name)
-    @name = name.strip
+    @name = name
   end
   def breed=(breed)
-    @breed = breed.strip
+    @breed = breed
   end
 end
